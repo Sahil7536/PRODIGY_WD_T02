@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    font-size: 2em;
+    background-color: hsl(210, 100%, 50%); /* Bright blue background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+#display {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: hsl(0, 0%, 100%); /* White text for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for text for readability */
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: hsl(120, 100%, 50%); /* Green background for buttons */
+    color: hsl(0, 0%, 100%); /* White text on buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.buttons button:hover {
+    background-color: hsl(120, 100%, 40%); /* Darker green on hover */
+}
